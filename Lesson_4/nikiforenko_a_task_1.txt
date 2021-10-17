@@ -1,0 +1,63 @@
+1. Создаю виртуальное окружение
+C:\Users\Aa\TestPy>python -m venv nikiforenko_01
+
+C:\Users\Aa\TestPy>cd nikiforenko_01/Scripts
+
+C:\Users\Aa\TestPy\nikiforenko_01\Scripts>activate.bat
+
+(nikiforenko_01) C:\Users\Aa\TestPy\nikiforenko_01\Scripts>
+
+2. Проверяю на наличие пакетов, пакетов нет.
+(nikiforenko_01) C:\Users\Aa\TestPy\nikiforenko_01\Scripts>pip freeze
+
+
+3. Устанавливаю Pillow
+(nikiforenko_01) C:\Users\Aa\TestPy\nikiforenko_01\Scripts>pip install pillow==8.4.0
+Collecting pillow==8.4.0
+  Using cached Pillow-8.4.0-cp39-cp39-win_amd64.whl (3.2 MB)
+Installing collected packages: pillow
+Successfully installed pillow-8.4.0
+
+4. Проверяю версию
+(nikiforenko_01) C:\Users\Aa\TestPy\nikiforenko_01\Scripts>pip show pillow
+Name: Pillow
+Version: 8.4.0
+Summary: Python Imaging Library (Fork)
+Home-page: https://python-pillow.org
+Author: Alex Clark (PIL Fork Author)
+Author-email: aclark@python-pillow.org
+License: HPND
+Location: c:\users\aa\testpy\nikiforenko_01\lib\site-packages
+Requires:
+Required-by:
+
+5. Деактивирую виртуальное окружение
+(nikiforenko_01) C:\Users\Aa\TestPy\nikiforenko_01\Scripts>deactivate
+C:\Users\Aa\TestPy\nikiforenko_01\Scripts>
+
+6. проверяю наличие всех пакетов в глобальном окружении
+(venv) C:\Users\Aa\PycharmProjects\Nikiforenko_Andrey_DZ_1824>pip freeze
+certifi==2021.10.8
+charset-normalizer==2.0.7
+cssselect==1.1.0
+idna==3.3
+lxml==4.6.3
+Pillow==8.4.0
+pyquery==1.4.3
+requests==2.26.0
+urllib3==1.26.7
+
+(venv) C:\Users\Aa\PycharmProjects\Nikiforenko_Andrey_DZ_1824>
+
+
+
+
+
+
+
+
+
+
+
+
+
